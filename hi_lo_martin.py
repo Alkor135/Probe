@@ -1,13 +1,13 @@
 import random
 
 
-min_depo = 10000.0
+min_depo = 100000.0
 for _ in range(1000):
     if min_depo < 0:
         break
-    start_depo = 10000.0  # Старт Депо
-    stop_depo = start_depo + start_depo * 0.0003  # Стоп Депо
-    bet_percent = 0.0001  # Процент ставки от депо
+    start_depo = 100000.0  # Старт Депо
+    stop_depo = start_depo + start_depo * 0.00003  # Стоп Депо
+    bet_percent = 0.00001  # Процент ставки от депо
     bet = start_depo * bet_percent  # Первоначальная ставка
     step_percent = 0.25
     # print(start_depo)
