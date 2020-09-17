@@ -60,10 +60,10 @@ params = urlencode([
 					('datf', 1), #Формат записи в файл. Выбор из 6 возможных.
 					('at', 1)]) #Нужны ли заголовки столбцов
 url = FINAM_URL + ticker+"_" + start_date_rev + "_" + end_date_rev + ".csv?" + params #урл составлен!
-print("Стучимся на Финам по ссылке: "+url)
-txt=urlopen(url).readlines() #здесь лежит огромный массив данных, прилетевший с Финама.
-local_file = open('quotes.txt', "w") #задаём файл, в который запишем котировки.
-for line in txt: #записываем свечи строку за строкой.
-	local_file.write(line.strip().decode( "utf-8" )+'\n')
-local_file.close()
-print("Готово. Проверьте файл quotes.txt в папке где лежит скрипт")
+print(f'Стучимся на Финам по ссылке: {url}')
+# txt = urlopen(url).readlines() #здесь лежит огромный массив данных, прилетевший с Финама.
+# local_file = open('quotes.txt', "w") #задаём файл, в который запишем котировки.
+# for line in txt: #записываем свечи строку за строкой.
+# 	local_file.write(line.strip().decode( "utf-8" )+'\n')
+# local_file.close()
+# print("Готово. Проверьте файл quotes.txt в папке где лежит скрипт")
