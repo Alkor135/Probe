@@ -1,5 +1,7 @@
+# -*- coding: utf-8 -*-
 import pandas as pd
 import numpy as np
+
 # ежедневный обменный курс
 # https://open.canada.ca/data/en/dataset/1bc25b1e-0e02-4a5e-afd7-7b96d6728aac
 
