@@ -92,8 +92,7 @@ params = urlencode([
     ('f', ticker + "_" + start_date_rev + "_" + end_date_rev),  # Имя сформированного файла
     ('e', ".csv"),  # Расширение сформированного файла
     ('cn', ticker),  # ещё раз тикер акции
-    ('dtf', 1),  # В каком формате брать даты. Выбор из 5 возможных. См. страницу
-    # https://www.finam.ru/profile/moex-akcii/sberbank/export/
+    ('dtf', 1),  # В каком формате брать даты. Выбор из 5 возможных. См. страницу # https://www.finam.ru/profile/moex-akcii/sberbank/export/
     ('tmf', 1),  # В каком формате брать время. Выбор из 4 возможных.
     ('MSOR', 0),  # Время свечи (0 - open; 1 - close)
     ('mstime', "on"),  # Московское время
