@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-
+Закачивает исторические данные с ФИНАМа, за указанный период, в указанном формате
+Каждый день в своем файле
 """
 from urllib.parse import urlencode
 from urllib.request import urlopen
@@ -104,7 +105,7 @@ if __name__ == "__main__":
     ticker = "SPFB.RTS"  # задаём тикер
     period = 3  # задаём период. Выбор из: 'tick': 1, 'min': 2, '5min': 3, '10min': 4, '15min': 5, '30min': 6, 'hour': 7
     start = "01.01.2020"  # с какой даты начинать тянуть котировки
-    end = "01.09.2020"  # финальная дата, по которую тянуть котировки
+    end = "02.09.2020"  # финальная дата, по которую тянуть котировки
 
     # Делаем преобразования дат:
     start_date_range = datetime.strptime(start, '%d.%m.%Y').strftime('%Y%m%d')  # Дата в нужном формате строкой
@@ -116,4 +117,4 @@ if __name__ == "__main__":
         download_date = single_date.strftime('%Y%m%d')
         data.download(download_date)
 
-        time.sleep(3)  # Сон в 3 секунды
+        time.sleep(2)  # Сон в 2 секунды
