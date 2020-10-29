@@ -1,4 +1,10 @@
-
+.ipynb_checkpoints
+.idea
+__pycache__
+venv
+env
+*.log
+*.db
 
 # Environments
 .env

@@ -21,7 +21,7 @@ def normalize_value(table, new_column, source_column):
     :return: Data Frame с новой колонкой нормализованных данных
     """
     price_at_t0 = table.iloc[-1][source_column]  # Берем самое первое по времени значение (к нему нормализуем)
-    table[new_column] = table.apply(lambda row: row[source_column] / price_at_t0, axis=1)
+    table[new_column] = table.apply(lambda row: row[source_column] / price_at_t0, axis=1)  # axis=1 Указывает на колонку
     return table
 
 

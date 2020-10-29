@@ -8,7 +8,7 @@ data = pd.read_csv('../data/sf_pe_salaries_2011.csv')  # Загрузка дан
 data['BasePay'] = data['BasePay'].replace('Not Provided', '0')  # Заменяем в DF "Not Provided" на "0"
 data = data.fillna('0')  # Все 'Nan' меняем на "0"
 data['BasePay'] = data['BasePay'].astype(float)  # Меняем тип данных в колонке на 'float'
-data = data.drop('Id', 1)
+data = data.drop('Id', 1)  # Удаление ненужной колонки, которая стала индексом
 print(data)
 
 x_axis = data.index  # Ось X
