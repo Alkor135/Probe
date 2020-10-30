@@ -16,8 +16,8 @@ close = spx['Pct_change'].values[1:]
 
 n, buckets, patches = plt.hist(close, 50, normed=1)
 
-mean = close.mean()
-std = close.std()  # Стандартная девиация
+mean = close.mean()  # Среднее значение
+std = close.std()  # Стандартная девиация (стандартное отклонение)
 mu = mean
 sigma = std
 best_fit_line = mlab.normpdf(buckets, mu, sigma)

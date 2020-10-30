@@ -79,11 +79,12 @@ class DownloadFinam:
         file_name = f'{self.ticker}_{date_rev}_{date_rev}_{period_txt}.csv'  # Имя выходного файла
         # print(f'Имя выходного файла {file_name}')
 
-        dir_path = Path('..') / 'data_finam'  # Папка для сохранения (родительский каталог, папка data_finam)
+        dir_path = Path('../data_finam')  # Папка для сохранения (родительский каталог, папка data_finam)
         if not dir_path.exists():  # Проверяем существует ли папка
             dir_path.mkdir()  # Создаем папку при её отсутствии
 
-        return Path('..') / 'data_finam' / file_name  # Создаем пути для сохранения файла
+        # return Path('..') / 'data_finam' / file_name  # Создаем пути для сохранения файла
+        return Path(f'../data_finam/{file_name}')  # Создаем пути для сохранения файла
 
     def download(self, date_rev):
         self.url_finam(date_rev)  # Вызываем функцию составления url
@@ -110,7 +111,7 @@ if __name__ == "__main__":
     # Делаем преобразования дат:
     start_date_range = datetime.strptime(start, '%d.%m.%Y').strftime('%Y%m%d')  # Дата в нужном формате строкой
     end_date_range = datetime.strptime(end, '%d.%m.%Y').strftime('%Y%m%d')
-    date_range = pd.date_range(start_date_range, end_date_range)
+    date_range = pd.date_range(start_date_range, end_date_range)  # Список дат в диапазоне
 
     data = DownloadFinam(ticker, period)  # Создаем экземпляр класса
     for single_date in date_range:
