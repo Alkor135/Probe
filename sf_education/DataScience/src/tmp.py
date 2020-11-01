@@ -1,4 +1,11 @@
 import os
 
-current_path = os.getcwd()
-print(current_path)
+import time
+
+start = time.time()
+
+code()
+
+end = time.time()
+
+print(f' Время выполнения: {round(end - start, 3)} сек.')
