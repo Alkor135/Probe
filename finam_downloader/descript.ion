@@ -1,0 +1,5 @@
+﻿
+erase_zero_file.py Стирает пустые файлы среди скаченных
+settings.py Настройки загрузки
+csv_to_df.py Чтение csv в DF
+down_finam.py Загрузка файлов с Финама
