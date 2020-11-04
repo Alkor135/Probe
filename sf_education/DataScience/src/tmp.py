@@ -1,11 +1,19 @@
-import os
+from pathlib import Path
 
-import time
+print(Path.cwd())  # Текущая дирректория
+print(Path.home())  # Домашняя дирректория
 
-start = time.time()
+print(Path('/../data_finam'))  # data_finam в родительской дирректории
 
-code()
+print(Path('/../../data_finam'))  # data_finam в предродительской дирректории
 
-end = time.time()
+print(sorted(Path('..').glob('*.py')))  # все файлы py в родительской дирректории
 
-print(f' Время выполнения: {round(end - start, 3)} сек.')
+print(sorted(Path('../..').glob('*.py')))  # все файлы py в предродительской дирректории
+
+print(sorted(Path('../../..').glob('*.py')))  # все файлы py в пред пред родительской дирректории
+
+p = Path.cwd()
+print(p.parents[0])
+print(p.parents[1])
+print(p.parents[2])
