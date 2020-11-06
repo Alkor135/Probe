@@ -3,6 +3,7 @@ data_finam
 .ipynb_checkpoints
 .idea
 .idea/
+/.idea/
 __pycache__
 venv
 env
