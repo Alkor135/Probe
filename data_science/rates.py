@@ -18,6 +18,7 @@ rates = rates[rates['Type of currency'] == 'United States dollar, closing spot r
 # Сбросьте столбцы, которые нам не нужны, и заполните нулевые значениями (0)
 rates = rates[rates_cols].fillna(0)
 
+
 # Форсируйте общий индекс с экономическими данными, которые мы получим дальше
 rates.index = pd.to_datetime(rates['REF_DATE'])
 
