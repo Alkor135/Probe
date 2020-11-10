@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d444dc-2316-42d5-b335-17e8e6590ec3" name="Default Changelist" comment="Чистка">
+    <list default="true" id="d3d444dc-2316-42d5-b335-17e8e6590ec3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,14 +53,6 @@
       <option name="presentableId" value="Default" />
       <updated>1605034417191</updated>
     </task>
-    <task id="LOCAL-00001" summary="Чистка">
-      <created>1605039527168</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1605039527168</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -73,20 +65,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Чистка" />
-    <option name="LAST_COMMIT_MESSAGE" value="Чистка" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="170" key="SettingsEditor" timestamp="1605043341068">
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605041817533">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="170" key="SettingsEditor/1904.-1083.1920.1050/-16.-1080.1920.1050/0.0.1920.1050/1920.10.1920.1050@0.0.1920.1050" timestamp="1605043341068" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1605039536153">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1904.-1083.1920.1050/-16.-1080.1920.1050/0.0.1920.1050/1920.10.1920.1050@0.0.1920.1050" timestamp="1605039536153" />
+    <state x="777" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605041817533" />
   </component>
 </project>

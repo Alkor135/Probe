@@ -6,6 +6,7 @@ venv
 env
 *.log
 *.db
+.idea
 
 # Environments
 .env
