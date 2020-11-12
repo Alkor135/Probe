@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d3d444dc-2316-42d5-b335-17e8e6590ec3" name="Default Changelist" comment="Чистка">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finam_data_downloader/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/finam_data_downloader_original/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finam_data_downloader/download_data_original.py" beforeDir="false" afterPath="$PROJECT_DIR$/finam_data_downloader_original/download_data_original.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finam_downloader/csv_to_df.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/finam_downloader/csv_to_df.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finam_downloader/csv_to_df.py" beforeDir="false" afterPath="$PROJECT_DIR$/finam_downloader/csv_to_df.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605039527168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Чистка">
+      <created>1605043515373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605043515373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,9 +95,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="170" key="SettingsEditor/1904.-1083.1920.1050/-16.-1080.1920.1050/0.0.1920.1050/1920.10.1920.1050@0.0.1920.1050" timestamp="1605043341068" />
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1605039536153">
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2" timestamp="1605043521540">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1904.-1083.1920.1050/-16.-1080.1920.1050/0.0.1920.1050/1920.10.1920.1050@0.0.1920.1050" timestamp="1605039536153" />
+    <state x="552" y="258" key="Vcs.Push.Dialog.v2/1904.-1083.1920.1050/-16.-1080.1920.1050/0.0.1920.1050/1920.10.1920.1050@0.0.1920.1050" timestamp="1605043521540" />
   </component>
 </project>
