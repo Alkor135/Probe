@@ -3,6 +3,7 @@
 Закачивает исторические данные с ФИНАМа, за указанный период, в указанном формате
 Каждый день в своем файле
 """
+
 from urllib.parse import urlencode
 from urllib.request import urlopen
 from datetime import datetime
